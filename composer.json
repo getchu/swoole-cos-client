@@ -1,0 +1,19 @@
+{
+  "name": "zhuangdebiao/swoole-cos-client",
+  "description": "Client of QCloud.com COS",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhuangdebiao",
+      "email": "admin@zdb.im"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-swoole": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "ext-json": "*",
+    "ext-dom": "*"
+  }
+}
