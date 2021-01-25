@@ -24,19 +24,31 @@ class ObjectClient
     // 上传文件
     public function putObject(string $key, string $filename){
         $requestPath = '/' . ltrim($key , '/');
-        return $this->requestObject('PUT', $requestPath, '', [], $filename);
+        try{
+            return $this->requestObject('PUT', $requestPath, '', [], $filename);
+        }catch (\Exception $e){
+            return null;
+        }
     }
 
     // 文件是否存在
     public function headObject(string $key) {
         $requestPath = '/' . ltrim($key , '/');
-        return $this->requestObject('HEAD', $requestPath);
+        try{
+            return $this->requestObject('HEAD', $requestPath);
+        }catch (\Exception $e){
+            return null;
+        }
     }
 
     // 删除文件
     public function deleteObject(string $key) {
         $requestPath = '/' . ltrim($key , '/');
-        return $this->requestObject('DELETE', $requestPath);
+        try{
+            return $this->requestObject('DELETE', $requestPath);
+        }catch (\Exception $e) {
+            return null;
+        }
     }
 
     /**
