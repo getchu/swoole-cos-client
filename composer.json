@@ -1,6 +1,7 @@
 {
   "name": "zhuangdebiao/swoole-cos-client",
-  "description": "Client of QCloud.com COS",
+  "keywords": ["swoole", "cos", "client", "qcloud"],
+  "description": "Client of QCloud.com COS for Swoole",
   "license": "MIT",
   "authors": [
     {
