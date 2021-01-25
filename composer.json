@@ -16,5 +16,10 @@
     "ext-simplexml": "*",
     "ext-json": "*",
     "ext-dom": "*"
+  },
+  "autoload": {
+     "psr-4": {
+       "ZhuangDeBiao\\SwooleCosClient\\": "src/"
+     }
   }
 }
