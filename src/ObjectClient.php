@@ -12,7 +12,7 @@ class ObjectClient
 
     public $host = '%s.cos.%s.myqcloud.com';
 
-    public $cdn = '%s.file.myqcloud.com';
+    public $cdn = 'https://%s.file.myqcloud.com';
 
     public function __construct(Config $cosConfig)
     {

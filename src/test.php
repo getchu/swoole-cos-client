@@ -17,8 +17,8 @@ include __DIR__ . '/ObjectClient.php';
 
     $object = new \ZhuangDeBiao\SwooleCosClient\ObjectClient(new \ZhuangDeBiao\SwooleCosClient\Config([
         'appId' => '1251196541',
-        'secretId' => '',
-        'secretKey' => '',
+        'secretId' => 'AKIDQ0KPDoAozsUifLrkU2Tm8F7heQMndXea',
+        'secretKey' => '5VeZDLKBw4zd060f391cv22ymOj24tRh',
         'region' => 'ap-guangzhou',
         'bucket' => 'test-1251196541',
     ]));
